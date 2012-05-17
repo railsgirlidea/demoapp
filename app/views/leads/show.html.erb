@@ -1,0 +1,7 @@
+<h1>Lead <%= @lead.Name %></h1>
+	 
+	<% @lead.attributes.each do |a| %>
+	    <%= a[0] %>: <%= a[1] %><br/>
+	<% end %>
+
+

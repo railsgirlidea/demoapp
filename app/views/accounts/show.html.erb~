@@ -1,0 +1,7 @@
+<h1>Account <%= @account.Name %></h1>
+	 
+	<% @account.attributes.each do |a| %>
+	    <%= a[0] %>: <%= a[1] %><br/>
+	<% end %>
+
+

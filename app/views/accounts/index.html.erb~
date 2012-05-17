@@ -1,0 +1,8 @@
+<h1>Accounts</h1>
+
+<% @account.each do |u| %>
+  <!--<%= link_to "#{u.Name}", u %> <br/>-->
+   <%= a[0] %>: <%= a[1] %><br/>
+<% end %>
+
+

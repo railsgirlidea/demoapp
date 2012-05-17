@@ -1,0 +1,7 @@
+<h1>Product <%= @product.Name %></h1>
+	 
+	<% @product.attributes.each do |a| %>
+	    <%= a[0] %>: <%= a[1] %><br/>
+	<% end %>
+
+

@@ -1,0 +1,994 @@
+registering IrModel as an ActiveResource proxy for OpenObject ir.model model
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: fields_get, *args: []
+6 fields loaded in model IrModel
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: search, *args: [[], 0, false, false, {}, false]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: read, *args: [[50, 47, 46, 49, 44, 45, 48, 93, 94, 92, 51, 12, 14, 20, 15, 72, 13, 19, 21, 17, 16, 22, 39, 23, 11, 27, 28, 24, 3, 4, 2, 41, 42, 43, 85, 35, 6, 5, 18, 26, 7, 9, 8, 10, 25, 38, 90, 75, 40, 68, 66, 69, 67, 89, 91, 54, 76, 70, 71, 79, 80, 52, 53, 73, 74, 77, 55, 84, 59, 60, 63, 61, 62, 64, 57, 65, 58, 56, 81, 83, 82, 78, 86, 87, 88, 36, 37, 29, 30, 32, 31, 34, 33], ["model"]]
+registering BaseLanguageExport as an ActiveResource proxy for OpenObject base.language.export model
+registering BaseLanguageImport as an ActiveResource proxy for OpenObject base.language.import model
+registering BaseLanguageInstall as an ActiveResource proxy for OpenObject base.language.install model
+registering BaseModuleConfiguration as an ActiveResource proxy for OpenObject base.module.configuration model
+registering BaseModuleImport as an ActiveResource proxy for OpenObject base.module.import model
+registering BaseModuleUpdate as an ActiveResource proxy for OpenObject base.module.update model
+registering BaseModuleUpgrade as an ActiveResource proxy for OpenObject base.module.upgrade model
+registering BaseSetupCompany as an ActiveResource proxy for OpenObject base.setup.company model
+registering BaseSetupConfig as an ActiveResource proxy for OpenObject base.setup.config model
+registering BaseSetupInstaller as an ActiveResource proxy for OpenObject base.setup.installer model
+registering BaseUpdateTranslations as an ActiveResource proxy for OpenObject base.update.translations model
+registering IrActionsActions as an ActiveResource proxy for OpenObject ir.actions.actions model
+registering IrActionsAct_window as an ActiveResource proxy for OpenObject ir.actions.act_window model
+registering IrActionsAct_window_close as an ActiveResource proxy for OpenObject ir.actions.act_window_close model
+registering IrActionsAct_windowView as an ActiveResource proxy for OpenObject ir.actions.act_window.view model
+registering IrActionsConfigurationWizard as an ActiveResource proxy for OpenObject ir.actions.configuration.wizard model
+registering IrActionsReportXml as an ActiveResource proxy for OpenObject ir.actions.report.xml model
+registering IrActionsServer as an ActiveResource proxy for OpenObject ir.actions.server model
+registering IrActionsTodo as an ActiveResource proxy for OpenObject ir.actions.todo model
+registering IrActionsUrl as an ActiveResource proxy for OpenObject ir.actions.url model
+registering IrActionsWizard as an ActiveResource proxy for OpenObject ir.actions.wizard model
+registering IrAttachment as an ActiveResource proxy for OpenObject ir.attachment model
+registering IrConfig_parameter as an ActiveResource proxy for OpenObject ir.config_parameter model
+registering IrCron as an ActiveResource proxy for OpenObject ir.cron model
+registering IrDefault as an ActiveResource proxy for OpenObject ir.default model
+registering IrExports as an ActiveResource proxy for OpenObject ir.exports model
+registering IrExportsLine as an ActiveResource proxy for OpenObject ir.exports.line model
+registering IrFilters as an ActiveResource proxy for OpenObject ir.filters model
+registering IrModelAccess as an ActiveResource proxy for OpenObject ir.model.access model
+registering IrModelData as an ActiveResource proxy for OpenObject ir.model.data model
+registering IrModelFields as an ActiveResource proxy for OpenObject ir.model.fields model
+registering IrModuleCategory as an ActiveResource proxy for OpenObject ir.module.category model
+registering IrModuleModule as an ActiveResource proxy for OpenObject ir.module.module model
+registering IrModuleModuleDependency as an ActiveResource proxy for OpenObject ir.module.module.dependency model
+registering IrProperty as an ActiveResource proxy for OpenObject ir.property model
+registering IrRule as an ActiveResource proxy for OpenObject ir.rule model
+registering IrSequence as an ActiveResource proxy for OpenObject ir.sequence model
+registering IrSequenceType as an ActiveResource proxy for OpenObject ir.sequence.type model
+registering IrServerObjectLines as an ActiveResource proxy for OpenObject ir.server.object.lines model
+registering IrTranslation as an ActiveResource proxy for OpenObject ir.translation model
+registering IrUiMenu as an ActiveResource proxy for OpenObject ir.ui.menu model
+registering IrUiView as an ActiveResource proxy for OpenObject ir.ui.view model
+registering IrUiViewCustom as an ActiveResource proxy for OpenObject ir.ui.view.custom model
+registering IrUiView_sc as an ActiveResource proxy for OpenObject ir.ui.view_sc model
+registering IrValues as an ActiveResource proxy for OpenObject ir.values model
+registering IrWizardScreen as an ActiveResource proxy for OpenObject ir.wizard.screen model
+registering MaintenanceContract as an ActiveResource proxy for OpenObject maintenance.contract model
+registering Multi_companyDefault as an ActiveResource proxy for OpenObject multi_company.default model
+registering Osv_memoryAutovacuum as an ActiveResource proxy for OpenObject osv_memory.autovacuum model
+registering PartnerClearIds as an ActiveResource proxy for OpenObject partner.clear.ids model
+registering PartnerSmsSend as an ActiveResource proxy for OpenObject partner.sms.send model
+registering PartnerWizardEanCheck as an ActiveResource proxy for OpenObject partner.wizard.ean.check model
+registering PartnerWizardSpam as an ActiveResource proxy for OpenObject partner.wizard.spam model
+registering Publisher_warrantyContract as an ActiveResource proxy for OpenObject publisher_warranty.contract model
+registering Publisher_warrantyContractWizard as an ActiveResource proxy for OpenObject publisher_warranty.contract.wizard model
+registering ResBank as an ActiveResource proxy for OpenObject res.bank model
+registering ResCompany as an ActiveResource proxy for OpenObject res.company model
+registering ResConfig as an ActiveResource proxy for OpenObject res.config model
+registering ResConfigInstaller as an ActiveResource proxy for OpenObject res.config.installer model
+registering ResConfigUsers as an ActiveResource proxy for OpenObject res.config.users model
+registering ResConfigView as an ActiveResource proxy for OpenObject res.config.view model
+registering ResCountry as an ActiveResource proxy for OpenObject res.country model
+registering ResCountryState as an ActiveResource proxy for OpenObject res.country.state model
+registering ResCurrency as an ActiveResource proxy for OpenObject res.currency model
+registering ResCurrencyRate as an ActiveResource proxy for OpenObject res.currency.rate model
+registering ResGroups as an ActiveResource proxy for OpenObject res.groups model
+registering ResLang as an ActiveResource proxy for OpenObject res.lang model
+registering ResLog as an ActiveResource proxy for OpenObject res.log model
+registering ResPartner as an ActiveResource proxy for OpenObject res.partner model
+registering ResPartnerAddress as an ActiveResource proxy for OpenObject res.partner.address model
+registering ResPartnerBank as an ActiveResource proxy for OpenObject res.partner.bank model
+registering ResPartnerBankType as an ActiveResource proxy for OpenObject res.partner.bank.type model
+registering ResPartnerBankTypeField as an ActiveResource proxy for OpenObject res.partner.bank.type.field model
+registering ResPartnerCanal as an ActiveResource proxy for OpenObject res.partner.canal model
+registering ResPartnerCategory as an ActiveResource proxy for OpenObject res.partner.category model
+registering ResPartnerEvent as an ActiveResource proxy for OpenObject res.partner.event model
+registering ResPartnerTitle as an ActiveResource proxy for OpenObject res.partner.title model
+registering ResPayterm as an ActiveResource proxy for OpenObject res.payterm model
+registering ResRequest as an ActiveResource proxy for OpenObject res.request model
+registering ResRequestHistory as an ActiveResource proxy for OpenObject res.request.history model
+registering ResRequestLink as an ActiveResource proxy for OpenObject res.request.link model
+registering ResUsers as an ActiveResource proxy for OpenObject res.users model
+registering ResWidget as an ActiveResource proxy for OpenObject res.widget model
+registering ResWidgetUser as an ActiveResource proxy for OpenObject res.widget.user model
+registering ResWidgetWizard as an ActiveResource proxy for OpenObject res.widget.wizard model
+registering WizardIrModelMenuCreate as an ActiveResource proxy for OpenObject wizard.ir.model.menu.create model
+registering WizardIrModelMenuCreateLine as an ActiveResource proxy for OpenObject wizard.ir.model.menu.create.line model
+registering Workflow as an ActiveResource proxy for OpenObject workflow model
+registering WorkflowActivity as an ActiveResource proxy for OpenObject workflow.activity model
+registering WorkflowInstance as an ActiveResource proxy for OpenObject workflow.instance model
+registering WorkflowTransition as an ActiveResource proxy for OpenObject workflow.transition model
+registering WorkflowTriggers as an ActiveResource proxy for OpenObject workflow.triggers model
+registering WorkflowWorkitem as an ActiveResource proxy for OpenObject workflow.workitem model
+
+
+Started GET "/accounts/0019000000CIIvLAAX" for 127.0.0.1 at 2012-05-12 15:36:51 +0530
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: search, *args: [[], 0, false, false, {}, false]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: read, *args: [[50, 47, 46, 49, 44, 45, 48, 93, 94, 92, 51, 12, 14, 20, 15, 72, 13, 19, 21, 17, 16, 22, 39, 23, 11, 27, 28, 24, 3, 4, 2, 41, 42, 43, 85, 35, 6, 5, 18, 26, 7, 9, 8, 10, 25, 38, 90, 75, 40, 68, 66, 69, 67, 89, 91, 54, 76, 70, 71, 79, 80, 52, 53, 73, 74, 77, 55, 84, 59, 60, 63, 61, 62, 64, 57, 65, 58, 56, 81, 83, 82, 78, 86, 87, 88, 36, 37, 29, 30, 32, 31, 34, 33], ["model"]]
+Processing by AccountsController#show as HTML
+  Parameters: {"id"=>"0019000000CIIvLAAX"}
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: fields_get, *args: []
+17 fields loaded in model ResPartner
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: default_get, *args: [["comment", "ean13", "active", "supplier", "city", "employee", "ref", "email", "vat", "website", "lang", "phone", "date", "customer", "credit_limit", "name", "mobile", "user_id", "title", "company_id", "parent_id", "country", "bank_ids", "child_ids", "address", "events", "category_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.users, method: fields_get, *args: []
+13 fields loaded in model ResUsers
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.title, method: fields_get, *args: []
+3 fields loaded in model ResPartnerTitle
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.company, method: fields_get, *args: []
+9 fields loaded in model ResCompany
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country, method: fields_get, *args: []
+2 fields loaded in model ResCountry
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: create, *args: [{"active"=>1, "customer"=>"TRUE", "lang"=>"en_US", "name"=>"GenePoint", "supplier"=>"TRUE", "website"=>"www.genepoint.com", "company_id"=>1}, {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: read, *args: [[156], [], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: fields_get, *args: []
+15 fields loaded in model ResPartnerAddress
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: default_get, *args: [["function", "city", "fax", "name", "zip", "mobile", "is_supplier_add", "street2", "is_customer_add", "birthdate", "phone", "street", "type", "active", "email", "country_id", "title", "company_id", "state_id", "partner_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country.state, method: fields_get, *args: []
+2 fields loaded in model ResCountryState
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country.state, method: default_get, *args: [["code", "name", "country_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country, method: default_get, *args: [["code", "name"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: create, *args: [{"active"=>1, "street"=>"345 Shoreline Park\nMountain View, CA 94043\nUSA", "city"=>"Mountain View", "zip"=>false, "phone"=>"(650) 867-3450", "fax"=>"(650) 867-9895", "type"=>"invoice", "company_id"=>1, "partner_id"=>156}, {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: read, *args: [[118], [], {}]
+  Rendered accounts/show.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 7785ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-12 15:37:00 +0530
+Served asset /application.css - 304 Not Modified (44ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2012-05-12 15:37:00 +0530
+Served asset /accounts.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contacts.css?body=1" for 127.0.0.1 at 2012-05-12 15:37:00 +0530
+Served asset /contacts.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/leads.css?body=1" for 127.0.0.1 at 2012-05-12 15:37:00 +0530
+Served asset /leads.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:00 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:00 +0530
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-05-12 15:37:00 +0530
+Served asset /products.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:00 +0530
+Served asset /accounts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:00 +0530
+Served asset /contacts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/leads.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:00 +0530
+Served asset /leads.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:00 +0530
+Served asset /products.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:00 +0530
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/accounts/0019000000CIIvUAAX" for 127.0.0.1 at 2012-05-12 15:37:36 +0530
+Processing by AccountsController#show as HTML
+  Parameters: {"id"=>"0019000000CIIvUAAX"}
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: default_get, *args: [["comment", "ean13", "active", "supplier", "city", "employee", "ref", "email", "vat", "website", "lang", "phone", "date", "customer", "credit_limit", "name", "mobile", "user_id", "title", "company_id", "parent_id", "country", "bank_ids", "child_ids", "address", "events", "category_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: create, *args: [{"active"=>1, "customer"=>"TRUE", "lang"=>"en_US", "name"=>"University of Arizona", "supplier"=>"TRUE", "website"=>"www.universityofarizona.com", "company_id"=>1}, {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: read, *args: [[157], [], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: default_get, *args: [["function", "city", "fax", "name", "zip", "mobile", "is_supplier_add", "street2", "is_customer_add", "birthdate", "phone", "street", "type", "active", "email", "country_id", "title", "company_id", "state_id", "partner_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country.state, method: default_get, *args: [["code", "name", "country_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country, method: default_get, *args: [["code", "name"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: create, *args: [{"active"=>1, "street"=>"888 N Euclid \nHallis Center, Room 501\nTucson, AZ 85721\nUnited States", "city"=>"Tucson", "zip"=>false, "phone"=>"(520) 773-9050", "fax"=>"(520) 773-9060", "type"=>"invoice", "company_id"=>1, "partner_id"=>157}, {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: read, *args: [[119], [], {}]
+  Rendered accounts/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1701ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-12 15:37:38 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leads.css?body=1" for 127.0.0.1 at 2012-05-12 15:37:38 +0530
+Served asset /leads.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-05-12 15:37:38 +0530
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:38 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.css?body=1" for 127.0.0.1 at 2012-05-12 15:37:38 +0530
+Served asset /contacts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leads.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:38 +0530
+Served asset /leads.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:38 +0530
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:38 +0530
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2012-05-12 15:37:38 +0530
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:38 +0530
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:38 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:38 +0530
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/accounts/0019000000CIIvLAAX" for 127.0.0.1 at 2012-05-12 15:37:45 +0530
+Processing by AccountsController#show as HTML
+  Parameters: {"id"=>"0019000000CIIvLAAX"}
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: default_get, *args: [["comment", "ean13", "active", "supplier", "city", "employee", "ref", "email", "vat", "website", "lang", "phone", "date", "customer", "credit_limit", "name", "mobile", "user_id", "title", "company_id", "parent_id", "country", "bank_ids", "child_ids", "address", "events", "category_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: create, *args: [{"active"=>1, "customer"=>"TRUE", "lang"=>"en_US", "name"=>"GenePoint", "supplier"=>"TRUE", "website"=>"www.genepoint.com", "company_id"=>1}, {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: read, *args: [[158], [], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: default_get, *args: [["function", "city", "fax", "name", "zip", "mobile", "is_supplier_add", "street2", "is_customer_add", "birthdate", "phone", "street", "type", "active", "email", "country_id", "title", "company_id", "state_id", "partner_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country.state, method: default_get, *args: [["code", "name", "country_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country, method: default_get, *args: [["code", "name"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: create, *args: [{"active"=>1, "street"=>"345 Shoreline Park\nMountain View, CA 94043\nUSA", "city"=>"Mountain View", "zip"=>false, "phone"=>"(650) 867-3450", "fax"=>"(650) 867-9895", "type"=>"invoice", "company_id"=>1, "partner_id"=>158}, {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: read, *args: [[120], [], {}]
+  Rendered accounts/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1728ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-12 15:37:47 +0530
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leads.css?body=1" for 127.0.0.1 at 2012-05-12 15:37:47 +0530
+Served asset /leads.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contacts.css?body=1" for 127.0.0.1 at 2012-05-12 15:37:47 +0530
+Served asset /contacts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2012-05-12 15:37:47 +0530
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-05-12 15:37:47 +0530
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:47 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:47 +0530
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:47 +0530
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:47 +0530
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:47 +0530
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/leads.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:47 +0530
+Served asset /leads.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-12 15:37:47 +0530
+Served asset /application.js - 304 Not Modified (2ms)
+registering IrModel as an ActiveResource proxy for OpenObject ir.model model
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: fields_get, *args: []
+6 fields loaded in model IrModel
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: search, *args: [[], 0, false, false, {}, false]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: read, *args: [[50, 47, 46, 49, 44, 45, 48, 93, 94, 92, 51, 12, 14, 20, 15, 72, 13, 19, 21, 17, 16, 22, 39, 23, 11, 27, 28, 24, 3, 4, 2, 41, 42, 43, 85, 35, 6, 5, 18, 26, 7, 9, 8, 10, 25, 38, 90, 75, 40, 68, 66, 69, 67, 89, 91, 54, 76, 70, 71, 79, 80, 52, 53, 73, 74, 77, 55, 84, 59, 60, 63, 61, 62, 64, 57, 65, 58, 56, 81, 83, 82, 78, 86, 87, 88, 36, 37, 29, 30, 32, 31, 34, 33], ["model"]]
+registering BaseLanguageExport as an ActiveResource proxy for OpenObject base.language.export model
+registering BaseLanguageImport as an ActiveResource proxy for OpenObject base.language.import model
+registering BaseLanguageInstall as an ActiveResource proxy for OpenObject base.language.install model
+registering BaseModuleConfiguration as an ActiveResource proxy for OpenObject base.module.configuration model
+registering BaseModuleImport as an ActiveResource proxy for OpenObject base.module.import model
+registering BaseModuleUpdate as an ActiveResource proxy for OpenObject base.module.update model
+registering BaseModuleUpgrade as an ActiveResource proxy for OpenObject base.module.upgrade model
+registering BaseSetupCompany as an ActiveResource proxy for OpenObject base.setup.company model
+registering BaseSetupConfig as an ActiveResource proxy for OpenObject base.setup.config model
+registering BaseSetupInstaller as an ActiveResource proxy for OpenObject base.setup.installer model
+registering BaseUpdateTranslations as an ActiveResource proxy for OpenObject base.update.translations model
+registering IrActionsActions as an ActiveResource proxy for OpenObject ir.actions.actions model
+registering IrActionsAct_window as an ActiveResource proxy for OpenObject ir.actions.act_window model
+registering IrActionsAct_window_close as an ActiveResource proxy for OpenObject ir.actions.act_window_close model
+registering IrActionsAct_windowView as an ActiveResource proxy for OpenObject ir.actions.act_window.view model
+registering IrActionsConfigurationWizard as an ActiveResource proxy for OpenObject ir.actions.configuration.wizard model
+registering IrActionsReportXml as an ActiveResource proxy for OpenObject ir.actions.report.xml model
+registering IrActionsServer as an ActiveResource proxy for OpenObject ir.actions.server model
+registering IrActionsTodo as an ActiveResource proxy for OpenObject ir.actions.todo model
+registering IrActionsUrl as an ActiveResource proxy for OpenObject ir.actions.url model
+registering IrActionsWizard as an ActiveResource proxy for OpenObject ir.actions.wizard model
+registering IrAttachment as an ActiveResource proxy for OpenObject ir.attachment model
+registering IrConfig_parameter as an ActiveResource proxy for OpenObject ir.config_parameter model
+registering IrCron as an ActiveResource proxy for OpenObject ir.cron model
+registering IrDefault as an ActiveResource proxy for OpenObject ir.default model
+registering IrExports as an ActiveResource proxy for OpenObject ir.exports model
+registering IrExportsLine as an ActiveResource proxy for OpenObject ir.exports.line model
+registering IrFilters as an ActiveResource proxy for OpenObject ir.filters model
+registering IrModelAccess as an ActiveResource proxy for OpenObject ir.model.access model
+registering IrModelData as an ActiveResource proxy for OpenObject ir.model.data model
+registering IrModelFields as an ActiveResource proxy for OpenObject ir.model.fields model
+registering IrModuleCategory as an ActiveResource proxy for OpenObject ir.module.category model
+registering IrModuleModule as an ActiveResource proxy for OpenObject ir.module.module model
+registering IrModuleModuleDependency as an ActiveResource proxy for OpenObject ir.module.module.dependency model
+registering IrProperty as an ActiveResource proxy for OpenObject ir.property model
+registering IrRule as an ActiveResource proxy for OpenObject ir.rule model
+registering IrSequence as an ActiveResource proxy for OpenObject ir.sequence model
+registering IrSequenceType as an ActiveResource proxy for OpenObject ir.sequence.type model
+registering IrServerObjectLines as an ActiveResource proxy for OpenObject ir.server.object.lines model
+registering IrTranslation as an ActiveResource proxy for OpenObject ir.translation model
+registering IrUiMenu as an ActiveResource proxy for OpenObject ir.ui.menu model
+registering IrUiView as an ActiveResource proxy for OpenObject ir.ui.view model
+registering IrUiViewCustom as an ActiveResource proxy for OpenObject ir.ui.view.custom model
+registering IrUiView_sc as an ActiveResource proxy for OpenObject ir.ui.view_sc model
+registering IrValues as an ActiveResource proxy for OpenObject ir.values model
+registering IrWizardScreen as an ActiveResource proxy for OpenObject ir.wizard.screen model
+registering MaintenanceContract as an ActiveResource proxy for OpenObject maintenance.contract model
+registering Multi_companyDefault as an ActiveResource proxy for OpenObject multi_company.default model
+registering Osv_memoryAutovacuum as an ActiveResource proxy for OpenObject osv_memory.autovacuum model
+registering PartnerClearIds as an ActiveResource proxy for OpenObject partner.clear.ids model
+registering PartnerSmsSend as an ActiveResource proxy for OpenObject partner.sms.send model
+registering PartnerWizardEanCheck as an ActiveResource proxy for OpenObject partner.wizard.ean.check model
+registering PartnerWizardSpam as an ActiveResource proxy for OpenObject partner.wizard.spam model
+registering Publisher_warrantyContract as an ActiveResource proxy for OpenObject publisher_warranty.contract model
+registering Publisher_warrantyContractWizard as an ActiveResource proxy for OpenObject publisher_warranty.contract.wizard model
+registering ResBank as an ActiveResource proxy for OpenObject res.bank model
+registering ResCompany as an ActiveResource proxy for OpenObject res.company model
+registering ResConfig as an ActiveResource proxy for OpenObject res.config model
+registering ResConfigInstaller as an ActiveResource proxy for OpenObject res.config.installer model
+registering ResConfigUsers as an ActiveResource proxy for OpenObject res.config.users model
+registering ResConfigView as an ActiveResource proxy for OpenObject res.config.view model
+registering ResCountry as an ActiveResource proxy for OpenObject res.country model
+registering ResCountryState as an ActiveResource proxy for OpenObject res.country.state model
+registering ResCurrency as an ActiveResource proxy for OpenObject res.currency model
+registering ResCurrencyRate as an ActiveResource proxy for OpenObject res.currency.rate model
+registering ResGroups as an ActiveResource proxy for OpenObject res.groups model
+registering ResLang as an ActiveResource proxy for OpenObject res.lang model
+registering ResLog as an ActiveResource proxy for OpenObject res.log model
+registering ResPartner as an ActiveResource proxy for OpenObject res.partner model
+registering ResPartnerAddress as an ActiveResource proxy for OpenObject res.partner.address model
+registering ResPartnerBank as an ActiveResource proxy for OpenObject res.partner.bank model
+registering ResPartnerBankType as an ActiveResource proxy for OpenObject res.partner.bank.type model
+registering ResPartnerBankTypeField as an ActiveResource proxy for OpenObject res.partner.bank.type.field model
+registering ResPartnerCanal as an ActiveResource proxy for OpenObject res.partner.canal model
+registering ResPartnerCategory as an ActiveResource proxy for OpenObject res.partner.category model
+registering ResPartnerEvent as an ActiveResource proxy for OpenObject res.partner.event model
+registering ResPartnerTitle as an ActiveResource proxy for OpenObject res.partner.title model
+registering ResPayterm as an ActiveResource proxy for OpenObject res.payterm model
+registering ResRequest as an ActiveResource proxy for OpenObject res.request model
+registering ResRequestHistory as an ActiveResource proxy for OpenObject res.request.history model
+registering ResRequestLink as an ActiveResource proxy for OpenObject res.request.link model
+registering ResUsers as an ActiveResource proxy for OpenObject res.users model
+registering ResWidget as an ActiveResource proxy for OpenObject res.widget model
+registering ResWidgetUser as an ActiveResource proxy for OpenObject res.widget.user model
+registering ResWidgetWizard as an ActiveResource proxy for OpenObject res.widget.wizard model
+registering WizardIrModelMenuCreate as an ActiveResource proxy for OpenObject wizard.ir.model.menu.create model
+registering WizardIrModelMenuCreateLine as an ActiveResource proxy for OpenObject wizard.ir.model.menu.create.line model
+registering Workflow as an ActiveResource proxy for OpenObject workflow model
+registering WorkflowActivity as an ActiveResource proxy for OpenObject workflow.activity model
+registering WorkflowInstance as an ActiveResource proxy for OpenObject workflow.instance model
+registering WorkflowTransition as an ActiveResource proxy for OpenObject workflow.transition model
+registering WorkflowTriggers as an ActiveResource proxy for OpenObject workflow.triggers model
+registering WorkflowWorkitem as an ActiveResource proxy for OpenObject workflow.workitem model
+
+
+Started GET "/accounts/0019000000CIIvMAAX" for 127.0.0.1 at 2012-05-12 15:39:28 +0530
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: search, *args: [[], 0, false, false, {}, false]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: read, *args: [[50, 47, 46, 49, 44, 45, 48, 93, 94, 92, 51, 12, 14, 20, 15, 72, 13, 19, 21, 17, 16, 22, 39, 23, 11, 27, 28, 24, 3, 4, 2, 41, 42, 43, 85, 35, 6, 5, 18, 26, 7, 9, 8, 10, 25, 38, 90, 75, 40, 68, 66, 69, 67, 89, 91, 54, 76, 70, 71, 79, 80, 52, 53, 73, 74, 77, 55, 84, 59, 60, 63, 61, 62, 64, 57, 65, 58, 56, 81, 83, 82, 78, 86, 87, 88, 36, 37, 29, 30, 32, 31, 34, 33], ["model"]]
+Processing by AccountsController#show as HTML
+  Parameters: {"id"=>"0019000000CIIvMAAX"}
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: fields_get, *args: []
+17 fields loaded in model ResPartner
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: default_get, *args: [["comment", "ean13", "active", "supplier", "city", "employee", "ref", "email", "vat", "website", "lang", "phone", "date", "customer", "credit_limit", "name", "mobile", "user_id", "title", "company_id", "parent_id", "country", "bank_ids", "child_ids", "address", "events", "category_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.users, method: fields_get, *args: []
+13 fields loaded in model ResUsers
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.title, method: fields_get, *args: []
+3 fields loaded in model ResPartnerTitle
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.company, method: fields_get, *args: []
+9 fields loaded in model ResCompany
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country, method: fields_get, *args: []
+2 fields loaded in model ResCountry
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: create, *args: [{"active"=>1, "customer"=>"TRUE", "lang"=>"en_US", "name"=>"United Oil & Gas, UK", "supplier"=>"TRUE", "website"=>"http://www.uos.com", "company_id"=>1}, {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: read, *args: [[159], [], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: fields_get, *args: []
+15 fields loaded in model ResPartnerAddress
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: default_get, *args: [["function", "city", "fax", "name", "zip", "mobile", "is_supplier_add", "street2", "is_customer_add", "birthdate", "phone", "street", "type", "active", "email", "country_id", "title", "company_id", "state_id", "partner_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country.state, method: fields_get, *args: []
+2 fields loaded in model ResCountryState
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country.state, method: default_get, *args: [["code", "name", "country_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country, method: default_get, *args: [["code", "name"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: create, *args: [{"active"=>1, "street"=>"Kings Park, 17th Avenue, Team Valley Trading Estate,\nGateshead, Tyne and Wear NE26 3HS\nUnited Kingdom", "city"=>false, "zip"=>false, "phone"=>"+44 191 4956203", "fax"=>"+44 191 4956620", "type"=>"invoice", "company_id"=>1, "partner_id"=>159, "country_id"=>false}, {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: read, *args: [[121], [], {}]
+  Rendered accounts/show.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 7725ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-12 15:39:36 +0530
+Served asset /application.css - 304 Not Modified (45ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-12 15:39:36 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2012-05-12 15:39:36 +0530
+Served asset /accounts.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/contacts.css?body=1" for 127.0.0.1 at 2012-05-12 15:39:36 +0530
+Served asset /contacts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/leads.css?body=1" for 127.0.0.1 at 2012-05-12 15:39:36 +0530
+Served asset /leads.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-05-12 15:39:36 +0530
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2012-05-12 15:39:36 +0530
+Served asset /accounts.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/leads.js?body=1" for 127.0.0.1 at 2012-05-12 15:39:36 +0530
+Served asset /leads.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at 2012-05-12 15:39:36 +0530
+Served asset /contacts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-12 15:39:36 +0530
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-05-12 15:39:36 +0530
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-12 15:39:36 +0530
+Served asset /application.js - 304 Not Modified (10ms)
+registering IrModel as an ActiveResource proxy for OpenObject ir.model model
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: fields_get, *args: []
+6 fields loaded in model IrModel
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: search, *args: [[], 0, false, false, {}, false]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: read, *args: [[50, 47, 46, 49, 44, 45, 48, 93, 94, 92, 51, 12, 14, 20, 15, 72, 13, 19, 21, 17, 16, 22, 39, 23, 11, 27, 28, 24, 3, 4, 2, 41, 42, 43, 85, 35, 6, 5, 18, 26, 7, 9, 8, 10, 25, 38, 90, 75, 40, 68, 66, 69, 67, 89, 91, 54, 76, 70, 71, 79, 80, 52, 53, 73, 74, 77, 55, 84, 59, 60, 63, 61, 62, 64, 57, 65, 58, 56, 81, 83, 82, 78, 86, 87, 88, 36, 37, 29, 30, 32, 31, 34, 33], ["model"]]
+registering BaseLanguageExport as an ActiveResource proxy for OpenObject base.language.export model
+registering BaseLanguageImport as an ActiveResource proxy for OpenObject base.language.import model
+registering BaseLanguageInstall as an ActiveResource proxy for OpenObject base.language.install model
+registering BaseModuleConfiguration as an ActiveResource proxy for OpenObject base.module.configuration model
+registering BaseModuleImport as an ActiveResource proxy for OpenObject base.module.import model
+registering BaseModuleUpdate as an ActiveResource proxy for OpenObject base.module.update model
+registering BaseModuleUpgrade as an ActiveResource proxy for OpenObject base.module.upgrade model
+registering BaseSetupCompany as an ActiveResource proxy for OpenObject base.setup.company model
+registering BaseSetupConfig as an ActiveResource proxy for OpenObject base.setup.config model
+registering BaseSetupInstaller as an ActiveResource proxy for OpenObject base.setup.installer model
+registering BaseUpdateTranslations as an ActiveResource proxy for OpenObject base.update.translations model
+registering IrActionsActions as an ActiveResource proxy for OpenObject ir.actions.actions model
+registering IrActionsAct_window as an ActiveResource proxy for OpenObject ir.actions.act_window model
+registering IrActionsAct_window_close as an ActiveResource proxy for OpenObject ir.actions.act_window_close model
+registering IrActionsAct_windowView as an ActiveResource proxy for OpenObject ir.actions.act_window.view model
+registering IrActionsConfigurationWizard as an ActiveResource proxy for OpenObject ir.actions.configuration.wizard model
+registering IrActionsReportXml as an ActiveResource proxy for OpenObject ir.actions.report.xml model
+registering IrActionsServer as an ActiveResource proxy for OpenObject ir.actions.server model
+registering IrActionsTodo as an ActiveResource proxy for OpenObject ir.actions.todo model
+registering IrActionsUrl as an ActiveResource proxy for OpenObject ir.actions.url model
+registering IrActionsWizard as an ActiveResource proxy for OpenObject ir.actions.wizard model
+registering IrAttachment as an ActiveResource proxy for OpenObject ir.attachment model
+registering IrConfig_parameter as an ActiveResource proxy for OpenObject ir.config_parameter model
+registering IrCron as an ActiveResource proxy for OpenObject ir.cron model
+registering IrDefault as an ActiveResource proxy for OpenObject ir.default model
+registering IrExports as an ActiveResource proxy for OpenObject ir.exports model
+registering IrExportsLine as an ActiveResource proxy for OpenObject ir.exports.line model
+registering IrFilters as an ActiveResource proxy for OpenObject ir.filters model
+registering IrModelAccess as an ActiveResource proxy for OpenObject ir.model.access model
+registering IrModelData as an ActiveResource proxy for OpenObject ir.model.data model
+registering IrModelFields as an ActiveResource proxy for OpenObject ir.model.fields model
+registering IrModuleCategory as an ActiveResource proxy for OpenObject ir.module.category model
+registering IrModuleModule as an ActiveResource proxy for OpenObject ir.module.module model
+registering IrModuleModuleDependency as an ActiveResource proxy for OpenObject ir.module.module.dependency model
+registering IrProperty as an ActiveResource proxy for OpenObject ir.property model
+registering IrRule as an ActiveResource proxy for OpenObject ir.rule model
+registering IrSequence as an ActiveResource proxy for OpenObject ir.sequence model
+registering IrSequenceType as an ActiveResource proxy for OpenObject ir.sequence.type model
+registering IrServerObjectLines as an ActiveResource proxy for OpenObject ir.server.object.lines model
+registering IrTranslation as an ActiveResource proxy for OpenObject ir.translation model
+registering IrUiMenu as an ActiveResource proxy for OpenObject ir.ui.menu model
+registering IrUiView as an ActiveResource proxy for OpenObject ir.ui.view model
+registering IrUiViewCustom as an ActiveResource proxy for OpenObject ir.ui.view.custom model
+registering IrUiView_sc as an ActiveResource proxy for OpenObject ir.ui.view_sc model
+registering IrValues as an ActiveResource proxy for OpenObject ir.values model
+registering IrWizardScreen as an ActiveResource proxy for OpenObject ir.wizard.screen model
+registering MaintenanceContract as an ActiveResource proxy for OpenObject maintenance.contract model
+registering Multi_companyDefault as an ActiveResource proxy for OpenObject multi_company.default model
+registering Osv_memoryAutovacuum as an ActiveResource proxy for OpenObject osv_memory.autovacuum model
+registering PartnerClearIds as an ActiveResource proxy for OpenObject partner.clear.ids model
+registering PartnerSmsSend as an ActiveResource proxy for OpenObject partner.sms.send model
+registering PartnerWizardEanCheck as an ActiveResource proxy for OpenObject partner.wizard.ean.check model
+registering PartnerWizardSpam as an ActiveResource proxy for OpenObject partner.wizard.spam model
+registering Publisher_warrantyContract as an ActiveResource proxy for OpenObject publisher_warranty.contract model
+registering Publisher_warrantyContractWizard as an ActiveResource proxy for OpenObject publisher_warranty.contract.wizard model
+registering ResBank as an ActiveResource proxy for OpenObject res.bank model
+registering ResCompany as an ActiveResource proxy for OpenObject res.company model
+registering ResConfig as an ActiveResource proxy for OpenObject res.config model
+registering ResConfigInstaller as an ActiveResource proxy for OpenObject res.config.installer model
+registering ResConfigUsers as an ActiveResource proxy for OpenObject res.config.users model
+registering ResConfigView as an ActiveResource proxy for OpenObject res.config.view model
+registering ResCountry as an ActiveResource proxy for OpenObject res.country model
+registering ResCountryState as an ActiveResource proxy for OpenObject res.country.state model
+registering ResCurrency as an ActiveResource proxy for OpenObject res.currency model
+registering ResCurrencyRate as an ActiveResource proxy for OpenObject res.currency.rate model
+registering ResGroups as an ActiveResource proxy for OpenObject res.groups model
+registering ResLang as an ActiveResource proxy for OpenObject res.lang model
+registering ResLog as an ActiveResource proxy for OpenObject res.log model
+registering ResPartner as an ActiveResource proxy for OpenObject res.partner model
+registering ResPartnerAddress as an ActiveResource proxy for OpenObject res.partner.address model
+registering ResPartnerBank as an ActiveResource proxy for OpenObject res.partner.bank model
+registering ResPartnerBankType as an ActiveResource proxy for OpenObject res.partner.bank.type model
+registering ResPartnerBankTypeField as an ActiveResource proxy for OpenObject res.partner.bank.type.field model
+registering ResPartnerCanal as an ActiveResource proxy for OpenObject res.partner.canal model
+registering ResPartnerCategory as an ActiveResource proxy for OpenObject res.partner.category model
+registering ResPartnerEvent as an ActiveResource proxy for OpenObject res.partner.event model
+registering ResPartnerTitle as an ActiveResource proxy for OpenObject res.partner.title model
+registering ResPayterm as an ActiveResource proxy for OpenObject res.payterm model
+registering ResRequest as an ActiveResource proxy for OpenObject res.request model
+registering ResRequestHistory as an ActiveResource proxy for OpenObject res.request.history model
+registering ResRequestLink as an ActiveResource proxy for OpenObject res.request.link model
+registering ResUsers as an ActiveResource proxy for OpenObject res.users model
+registering ResWidget as an ActiveResource proxy for OpenObject res.widget model
+registering ResWidgetUser as an ActiveResource proxy for OpenObject res.widget.user model
+registering ResWidgetWizard as an ActiveResource proxy for OpenObject res.widget.wizard model
+registering WizardIrModelMenuCreate as an ActiveResource proxy for OpenObject wizard.ir.model.menu.create model
+registering WizardIrModelMenuCreateLine as an ActiveResource proxy for OpenObject wizard.ir.model.menu.create.line model
+registering Workflow as an ActiveResource proxy for OpenObject workflow model
+registering WorkflowActivity as an ActiveResource proxy for OpenObject workflow.activity model
+registering WorkflowInstance as an ActiveResource proxy for OpenObject workflow.instance model
+registering WorkflowTransition as an ActiveResource proxy for OpenObject workflow.transition model
+registering WorkflowTriggers as an ActiveResource proxy for OpenObject workflow.triggers model
+registering WorkflowWorkitem as an ActiveResource proxy for OpenObject workflow.workitem model
+
+
+Started GET "/accounts/0019000000CSrZyAAL" for 127.0.0.1 at 2012-05-12 15:43:16 +0530
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: search, *args: [[], 0, false, false, {}, false]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: read, *args: [[50, 47, 46, 49, 44, 45, 48, 93, 94, 92, 51, 12, 14, 20, 15, 72, 13, 19, 21, 17, 16, 22, 39, 23, 11, 27, 28, 24, 3, 4, 2, 41, 42, 43, 85, 35, 6, 5, 18, 26, 7, 9, 8, 10, 25, 38, 90, 75, 40, 68, 66, 69, 67, 89, 91, 54, 76, 70, 71, 79, 80, 52, 53, 73, 74, 77, 55, 84, 59, 60, 63, 61, 62, 64, 57, 65, 58, 56, 81, 83, 82, 78, 86, 87, 88, 36, 37, 29, 30, 32, 31, 34, 33], ["model"]]
+Processing by AccountsController#show as HTML
+  Parameters: {"id"=>"0019000000CSrZyAAL"}
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: fields_get, *args: []
+17 fields loaded in model ResPartner
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: default_get, *args: [["comment", "ean13", "active", "supplier", "city", "employee", "ref", "email", "vat", "website", "lang", "phone", "date", "customer", "credit_limit", "name", "mobile", "user_id", "title", "company_id", "parent_id", "country", "bank_ids", "child_ids", "address", "events", "category_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.users, method: fields_get, *args: []
+13 fields loaded in model ResUsers
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.title, method: fields_get, *args: []
+3 fields loaded in model ResPartnerTitle
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.company, method: fields_get, *args: []
+9 fields loaded in model ResCompany
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country, method: fields_get, *args: []
+2 fields loaded in model ResCountry
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: create, *args: [{"active"=>1, "customer"=>"TRUE", "lang"=>"en_US", "name"=>"Test Account", "supplier"=>"TRUE", "website"=>false, "company_id"=>1}, {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: read, *args: [[160], [], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: fields_get, *args: []
+15 fields loaded in model ResPartnerAddress
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: default_get, *args: [["function", "city", "fax", "name", "zip", "mobile", "is_supplier_add", "street2", "is_customer_add", "birthdate", "phone", "street", "type", "active", "email", "country_id", "title", "company_id", "state_id", "partner_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country.state, method: fields_get, *args: []
+2 fields loaded in model ResCountryState
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country.state, method: default_get, *args: [["code", "name", "country_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country, method: default_get, *args: [["code", "name"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country, method: read, *args: [[nil], ["name"], {}]
+Completed 500 Internal Server Error in 7580ms
+
+NoMethodError (undefined method `allowed!' for #<Ooor::XMLClient:0xad5c4d8>):
+  app/controllers/accounts_controller.rb:34:in `show'
+
+
+  Rendered /home/swapnil/.rvm/gems/ruby-1.9.2-p318/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /home/swapnil/.rvm/gems/ruby-1.9.2-p318/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/swapnil/.rvm/gems/ruby-1.9.2-p318/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+registering IrModel as an ActiveResource proxy for OpenObject ir.model model
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: fields_get, *args: []
+6 fields loaded in model IrModel
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: search, *args: [[], 0, false, false, {}, false]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: read, *args: [[50, 47, 46, 49, 44, 45, 48, 93, 94, 92, 51, 12, 14, 20, 15, 72, 13, 19, 21, 17, 16, 22, 39, 23, 11, 27, 28, 24, 3, 4, 2, 41, 42, 43, 85, 35, 6, 5, 18, 26, 7, 9, 8, 10, 25, 38, 90, 75, 40, 68, 66, 69, 67, 89, 91, 54, 76, 70, 71, 79, 80, 52, 53, 73, 74, 77, 55, 84, 59, 60, 63, 61, 62, 64, 57, 65, 58, 56, 81, 83, 82, 78, 86, 87, 88, 36, 37, 29, 30, 32, 31, 34, 33], ["model"]]
+registering BaseLanguageExport as an ActiveResource proxy for OpenObject base.language.export model
+registering BaseLanguageImport as an ActiveResource proxy for OpenObject base.language.import model
+registering BaseLanguageInstall as an ActiveResource proxy for OpenObject base.language.install model
+registering BaseModuleConfiguration as an ActiveResource proxy for OpenObject base.module.configuration model
+registering BaseModuleImport as an ActiveResource proxy for OpenObject base.module.import model
+registering BaseModuleUpdate as an ActiveResource proxy for OpenObject base.module.update model
+registering BaseModuleUpgrade as an ActiveResource proxy for OpenObject base.module.upgrade model
+registering BaseSetupCompany as an ActiveResource proxy for OpenObject base.setup.company model
+registering BaseSetupConfig as an ActiveResource proxy for OpenObject base.setup.config model
+registering BaseSetupInstaller as an ActiveResource proxy for OpenObject base.setup.installer model
+registering BaseUpdateTranslations as an ActiveResource proxy for OpenObject base.update.translations model
+registering IrActionsActions as an ActiveResource proxy for OpenObject ir.actions.actions model
+registering IrActionsAct_window as an ActiveResource proxy for OpenObject ir.actions.act_window model
+registering IrActionsAct_window_close as an ActiveResource proxy for OpenObject ir.actions.act_window_close model
+registering IrActionsAct_windowView as an ActiveResource proxy for OpenObject ir.actions.act_window.view model
+registering IrActionsConfigurationWizard as an ActiveResource proxy for OpenObject ir.actions.configuration.wizard model
+registering IrActionsReportXml as an ActiveResource proxy for OpenObject ir.actions.report.xml model
+registering IrActionsServer as an ActiveResource proxy for OpenObject ir.actions.server model
+registering IrActionsTodo as an ActiveResource proxy for OpenObject ir.actions.todo model
+registering IrActionsUrl as an ActiveResource proxy for OpenObject ir.actions.url model
+registering IrActionsWizard as an ActiveResource proxy for OpenObject ir.actions.wizard model
+registering IrAttachment as an ActiveResource proxy for OpenObject ir.attachment model
+registering IrConfig_parameter as an ActiveResource proxy for OpenObject ir.config_parameter model
+registering IrCron as an ActiveResource proxy for OpenObject ir.cron model
+registering IrDefault as an ActiveResource proxy for OpenObject ir.default model
+registering IrExports as an ActiveResource proxy for OpenObject ir.exports model
+registering IrExportsLine as an ActiveResource proxy for OpenObject ir.exports.line model
+registering IrFilters as an ActiveResource proxy for OpenObject ir.filters model
+registering IrModelAccess as an ActiveResource proxy for OpenObject ir.model.access model
+registering IrModelData as an ActiveResource proxy for OpenObject ir.model.data model
+registering IrModelFields as an ActiveResource proxy for OpenObject ir.model.fields model
+registering IrModuleCategory as an ActiveResource proxy for OpenObject ir.module.category model
+registering IrModuleModule as an ActiveResource proxy for OpenObject ir.module.module model
+registering IrModuleModuleDependency as an ActiveResource proxy for OpenObject ir.module.module.dependency model
+registering IrProperty as an ActiveResource proxy for OpenObject ir.property model
+registering IrRule as an ActiveResource proxy for OpenObject ir.rule model
+registering IrSequence as an ActiveResource proxy for OpenObject ir.sequence model
+registering IrSequenceType as an ActiveResource proxy for OpenObject ir.sequence.type model
+registering IrServerObjectLines as an ActiveResource proxy for OpenObject ir.server.object.lines model
+registering IrTranslation as an ActiveResource proxy for OpenObject ir.translation model
+registering IrUiMenu as an ActiveResource proxy for OpenObject ir.ui.menu model
+registering IrUiView as an ActiveResource proxy for OpenObject ir.ui.view model
+registering IrUiViewCustom as an ActiveResource proxy for OpenObject ir.ui.view.custom model
+registering IrUiView_sc as an ActiveResource proxy for OpenObject ir.ui.view_sc model
+registering IrValues as an ActiveResource proxy for OpenObject ir.values model
+registering IrWizardScreen as an ActiveResource proxy for OpenObject ir.wizard.screen model
+registering MaintenanceContract as an ActiveResource proxy for OpenObject maintenance.contract model
+registering Multi_companyDefault as an ActiveResource proxy for OpenObject multi_company.default model
+registering Osv_memoryAutovacuum as an ActiveResource proxy for OpenObject osv_memory.autovacuum model
+registering PartnerClearIds as an ActiveResource proxy for OpenObject partner.clear.ids model
+registering PartnerSmsSend as an ActiveResource proxy for OpenObject partner.sms.send model
+registering PartnerWizardEanCheck as an ActiveResource proxy for OpenObject partner.wizard.ean.check model
+registering PartnerWizardSpam as an ActiveResource proxy for OpenObject partner.wizard.spam model
+registering Publisher_warrantyContract as an ActiveResource proxy for OpenObject publisher_warranty.contract model
+registering Publisher_warrantyContractWizard as an ActiveResource proxy for OpenObject publisher_warranty.contract.wizard model
+registering ResBank as an ActiveResource proxy for OpenObject res.bank model
+registering ResCompany as an ActiveResource proxy for OpenObject res.company model
+registering ResConfig as an ActiveResource proxy for OpenObject res.config model
+registering ResConfigInstaller as an ActiveResource proxy for OpenObject res.config.installer model
+registering ResConfigUsers as an ActiveResource proxy for OpenObject res.config.users model
+registering ResConfigView as an ActiveResource proxy for OpenObject res.config.view model
+registering ResCountry as an ActiveResource proxy for OpenObject res.country model
+registering ResCountryState as an ActiveResource proxy for OpenObject res.country.state model
+registering ResCurrency as an ActiveResource proxy for OpenObject res.currency model
+registering ResCurrencyRate as an ActiveResource proxy for OpenObject res.currency.rate model
+registering ResGroups as an ActiveResource proxy for OpenObject res.groups model
+registering ResLang as an ActiveResource proxy for OpenObject res.lang model
+registering ResLog as an ActiveResource proxy for OpenObject res.log model
+registering ResPartner as an ActiveResource proxy for OpenObject res.partner model
+registering ResPartnerAddress as an ActiveResource proxy for OpenObject res.partner.address model
+registering ResPartnerBank as an ActiveResource proxy for OpenObject res.partner.bank model
+registering ResPartnerBankType as an ActiveResource proxy for OpenObject res.partner.bank.type model
+registering ResPartnerBankTypeField as an ActiveResource proxy for OpenObject res.partner.bank.type.field model
+registering ResPartnerCanal as an ActiveResource proxy for OpenObject res.partner.canal model
+registering ResPartnerCategory as an ActiveResource proxy for OpenObject res.partner.category model
+registering ResPartnerEvent as an ActiveResource proxy for OpenObject res.partner.event model
+registering ResPartnerTitle as an ActiveResource proxy for OpenObject res.partner.title model
+registering ResPayterm as an ActiveResource proxy for OpenObject res.payterm model
+registering ResRequest as an ActiveResource proxy for OpenObject res.request model
+registering ResRequestHistory as an ActiveResource proxy for OpenObject res.request.history model
+registering ResRequestLink as an ActiveResource proxy for OpenObject res.request.link model
+registering ResUsers as an ActiveResource proxy for OpenObject res.users model
+registering ResWidget as an ActiveResource proxy for OpenObject res.widget model
+registering ResWidgetUser as an ActiveResource proxy for OpenObject res.widget.user model
+registering ResWidgetWizard as an ActiveResource proxy for OpenObject res.widget.wizard model
+registering WizardIrModelMenuCreate as an ActiveResource proxy for OpenObject wizard.ir.model.menu.create model
+registering WizardIrModelMenuCreateLine as an ActiveResource proxy for OpenObject wizard.ir.model.menu.create.line model
+registering Workflow as an ActiveResource proxy for OpenObject workflow model
+registering WorkflowActivity as an ActiveResource proxy for OpenObject workflow.activity model
+registering WorkflowInstance as an ActiveResource proxy for OpenObject workflow.instance model
+registering WorkflowTransition as an ActiveResource proxy for OpenObject workflow.transition model
+registering WorkflowTriggers as an ActiveResource proxy for OpenObject workflow.triggers model
+registering WorkflowWorkitem as an ActiveResource proxy for OpenObject workflow.workitem model
+
+
+Started GET "/accounts/0019000000CSrZyAAL" for 127.0.0.1 at 2012-05-12 15:49:41 +0530
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: search, *args: [[], 0, false, false, {}, false]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: read, *args: [[50, 47, 46, 49, 44, 45, 48, 93, 94, 92, 51, 12, 14, 20, 15, 72, 13, 19, 21, 17, 16, 22, 39, 23, 11, 27, 28, 24, 3, 4, 2, 41, 42, 43, 85, 35, 6, 5, 18, 26, 7, 9, 8, 10, 25, 38, 90, 75, 40, 68, 66, 69, 67, 89, 91, 54, 76, 70, 71, 79, 80, 52, 53, 73, 74, 77, 55, 84, 59, 60, 63, 61, 62, 64, 57, 65, 58, 56, 81, 83, 82, 78, 86, 87, 88, 36, 37, 29, 30, 32, 31, 34, 33], ["model"]]
+Processing by AccountsController#show as HTML
+  Parameters: {"id"=>"0019000000CSrZyAAL"}
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: fields_get, *args: []
+17 fields loaded in model ResPartner
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: default_get, *args: [["comment", "ean13", "active", "supplier", "city", "employee", "ref", "email", "vat", "website", "lang", "phone", "date", "customer", "credit_limit", "name", "mobile", "user_id", "title", "company_id", "parent_id", "country", "bank_ids", "child_ids", "address", "events", "category_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.users, method: fields_get, *args: []
+13 fields loaded in model ResUsers
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.title, method: fields_get, *args: []
+3 fields loaded in model ResPartnerTitle
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.company, method: fields_get, *args: []
+9 fields loaded in model ResCompany
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country, method: fields_get, *args: []
+2 fields loaded in model ResCountry
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: create, *args: [{"active"=>1, "customer"=>"TRUE", "lang"=>"en_US", "name"=>"Test Account", "supplier"=>"TRUE", "website"=>false, "company_id"=>1}, {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: read, *args: [[161], [], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: fields_get, *args: []
+15 fields loaded in model ResPartnerAddress
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: default_get, *args: [["function", "city", "fax", "name", "zip", "mobile", "is_supplier_add", "street2", "is_customer_add", "birthdate", "phone", "street", "type", "active", "email", "country_id", "title", "company_id", "state_id", "partner_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country.state, method: fields_get, *args: []
+2 fields loaded in model ResCountryState
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country.state, method: default_get, *args: [["code", "name", "country_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country, method: default_get, *args: [["code", "name"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country, method: read, *args: [[nil], ["name"], false, {}]
+Completed 500 Internal Server Error in 7482ms
+
+NoMethodError (undefined method `allowed!' for #<Ooor::XMLClient:0x9a67440>):
+  app/controllers/accounts_controller.rb:34:in `show'
+
+
+  Rendered /home/swapnil/.rvm/gems/ruby-1.9.2-p318/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /home/swapnil/.rvm/gems/ruby-1.9.2-p318/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/swapnil/.rvm/gems/ruby-1.9.2-p318/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.9ms)
+registering IrModel as an ActiveResource proxy for OpenObject ir.model model
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: fields_get, *args: []
+6 fields loaded in model IrModel
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: search, *args: [[], 0, false, false, {}, false]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: read, *args: [[50, 47, 46, 49, 44, 45, 48, 93, 94, 92, 51, 12, 14, 20, 15, 72, 13, 19, 21, 17, 16, 22, 39, 23, 11, 27, 28, 24, 3, 4, 2, 41, 42, 43, 85, 35, 6, 5, 18, 26, 7, 9, 8, 10, 25, 38, 90, 75, 40, 68, 66, 69, 67, 89, 91, 54, 76, 70, 71, 79, 80, 52, 53, 73, 74, 77, 55, 84, 59, 60, 63, 61, 62, 64, 57, 65, 58, 56, 81, 83, 82, 78, 86, 87, 88, 36, 37, 29, 30, 32, 31, 34, 33], ["model"]]
+registering BaseLanguageExport as an ActiveResource proxy for OpenObject base.language.export model
+registering BaseLanguageImport as an ActiveResource proxy for OpenObject base.language.import model
+registering BaseLanguageInstall as an ActiveResource proxy for OpenObject base.language.install model
+registering BaseModuleConfiguration as an ActiveResource proxy for OpenObject base.module.configuration model
+registering BaseModuleImport as an ActiveResource proxy for OpenObject base.module.import model
+registering BaseModuleUpdate as an ActiveResource proxy for OpenObject base.module.update model
+registering BaseModuleUpgrade as an ActiveResource proxy for OpenObject base.module.upgrade model
+registering BaseSetupCompany as an ActiveResource proxy for OpenObject base.setup.company model
+registering BaseSetupConfig as an ActiveResource proxy for OpenObject base.setup.config model
+registering BaseSetupInstaller as an ActiveResource proxy for OpenObject base.setup.installer model
+registering BaseUpdateTranslations as an ActiveResource proxy for OpenObject base.update.translations model
+registering IrActionsActions as an ActiveResource proxy for OpenObject ir.actions.actions model
+registering IrActionsAct_window as an ActiveResource proxy for OpenObject ir.actions.act_window model
+registering IrActionsAct_window_close as an ActiveResource proxy for OpenObject ir.actions.act_window_close model
+registering IrActionsAct_windowView as an ActiveResource proxy for OpenObject ir.actions.act_window.view model
+registering IrActionsConfigurationWizard as an ActiveResource proxy for OpenObject ir.actions.configuration.wizard model
+registering IrActionsReportXml as an ActiveResource proxy for OpenObject ir.actions.report.xml model
+registering IrActionsServer as an ActiveResource proxy for OpenObject ir.actions.server model
+registering IrActionsTodo as an ActiveResource proxy for OpenObject ir.actions.todo model
+registering IrActionsUrl as an ActiveResource proxy for OpenObject ir.actions.url model
+registering IrActionsWizard as an ActiveResource proxy for OpenObject ir.actions.wizard model
+registering IrAttachment as an ActiveResource proxy for OpenObject ir.attachment model
+registering IrConfig_parameter as an ActiveResource proxy for OpenObject ir.config_parameter model
+registering IrCron as an ActiveResource proxy for OpenObject ir.cron model
+registering IrDefault as an ActiveResource proxy for OpenObject ir.default model
+registering IrExports as an ActiveResource proxy for OpenObject ir.exports model
+registering IrExportsLine as an ActiveResource proxy for OpenObject ir.exports.line model
+registering IrFilters as an ActiveResource proxy for OpenObject ir.filters model
+registering IrModelAccess as an ActiveResource proxy for OpenObject ir.model.access model
+registering IrModelData as an ActiveResource proxy for OpenObject ir.model.data model
+registering IrModelFields as an ActiveResource proxy for OpenObject ir.model.fields model
+registering IrModuleCategory as an ActiveResource proxy for OpenObject ir.module.category model
+registering IrModuleModule as an ActiveResource proxy for OpenObject ir.module.module model
+registering IrModuleModuleDependency as an ActiveResource proxy for OpenObject ir.module.module.dependency model
+registering IrProperty as an ActiveResource proxy for OpenObject ir.property model
+registering IrRule as an ActiveResource proxy for OpenObject ir.rule model
+registering IrSequence as an ActiveResource proxy for OpenObject ir.sequence model
+registering IrSequenceType as an ActiveResource proxy for OpenObject ir.sequence.type model
+registering IrServerObjectLines as an ActiveResource proxy for OpenObject ir.server.object.lines model
+registering IrTranslation as an ActiveResource proxy for OpenObject ir.translation model
+registering IrUiMenu as an ActiveResource proxy for OpenObject ir.ui.menu model
+registering IrUiView as an ActiveResource proxy for OpenObject ir.ui.view model
+registering IrUiViewCustom as an ActiveResource proxy for OpenObject ir.ui.view.custom model
+registering IrUiView_sc as an ActiveResource proxy for OpenObject ir.ui.view_sc model
+registering IrValues as an ActiveResource proxy for OpenObject ir.values model
+registering IrWizardScreen as an ActiveResource proxy for OpenObject ir.wizard.screen model
+registering MaintenanceContract as an ActiveResource proxy for OpenObject maintenance.contract model
+registering Multi_companyDefault as an ActiveResource proxy for OpenObject multi_company.default model
+registering Osv_memoryAutovacuum as an ActiveResource proxy for OpenObject osv_memory.autovacuum model
+registering PartnerClearIds as an ActiveResource proxy for OpenObject partner.clear.ids model
+registering PartnerSmsSend as an ActiveResource proxy for OpenObject partner.sms.send model
+registering PartnerWizardEanCheck as an ActiveResource proxy for OpenObject partner.wizard.ean.check model
+registering PartnerWizardSpam as an ActiveResource proxy for OpenObject partner.wizard.spam model
+registering Publisher_warrantyContract as an ActiveResource proxy for OpenObject publisher_warranty.contract model
+registering Publisher_warrantyContractWizard as an ActiveResource proxy for OpenObject publisher_warranty.contract.wizard model
+registering ResBank as an ActiveResource proxy for OpenObject res.bank model
+registering ResCompany as an ActiveResource proxy for OpenObject res.company model
+registering ResConfig as an ActiveResource proxy for OpenObject res.config model
+registering ResConfigInstaller as an ActiveResource proxy for OpenObject res.config.installer model
+registering ResConfigUsers as an ActiveResource proxy for OpenObject res.config.users model
+registering ResConfigView as an ActiveResource proxy for OpenObject res.config.view model
+registering ResCountry as an ActiveResource proxy for OpenObject res.country model
+registering ResCountryState as an ActiveResource proxy for OpenObject res.country.state model
+registering ResCurrency as an ActiveResource proxy for OpenObject res.currency model
+registering ResCurrencyRate as an ActiveResource proxy for OpenObject res.currency.rate model
+registering ResGroups as an ActiveResource proxy for OpenObject res.groups model
+registering ResLang as an ActiveResource proxy for OpenObject res.lang model
+registering ResLog as an ActiveResource proxy for OpenObject res.log model
+registering ResPartner as an ActiveResource proxy for OpenObject res.partner model
+registering ResPartnerAddress as an ActiveResource proxy for OpenObject res.partner.address model
+registering ResPartnerBank as an ActiveResource proxy for OpenObject res.partner.bank model
+registering ResPartnerBankType as an ActiveResource proxy for OpenObject res.partner.bank.type model
+registering ResPartnerBankTypeField as an ActiveResource proxy for OpenObject res.partner.bank.type.field model
+registering ResPartnerCanal as an ActiveResource proxy for OpenObject res.partner.canal model
+registering ResPartnerCategory as an ActiveResource proxy for OpenObject res.partner.category model
+registering ResPartnerEvent as an ActiveResource proxy for OpenObject res.partner.event model
+registering ResPartnerTitle as an ActiveResource proxy for OpenObject res.partner.title model
+registering ResPayterm as an ActiveResource proxy for OpenObject res.payterm model
+registering ResRequest as an ActiveResource proxy for OpenObject res.request model
+registering ResRequestHistory as an ActiveResource proxy for OpenObject res.request.history model
+registering ResRequestLink as an ActiveResource proxy for OpenObject res.request.link model
+registering ResUsers as an ActiveResource proxy for OpenObject res.users model
+registering ResWidget as an ActiveResource proxy for OpenObject res.widget model
+registering ResWidgetUser as an ActiveResource proxy for OpenObject res.widget.user model
+registering ResWidgetWizard as an ActiveResource proxy for OpenObject res.widget.wizard model
+registering WizardIrModelMenuCreate as an ActiveResource proxy for OpenObject wizard.ir.model.menu.create model
+registering WizardIrModelMenuCreateLine as an ActiveResource proxy for OpenObject wizard.ir.model.menu.create.line model
+registering Workflow as an ActiveResource proxy for OpenObject workflow model
+registering WorkflowActivity as an ActiveResource proxy for OpenObject workflow.activity model
+registering WorkflowInstance as an ActiveResource proxy for OpenObject workflow.instance model
+registering WorkflowTransition as an ActiveResource proxy for OpenObject workflow.transition model
+registering WorkflowTriggers as an ActiveResource proxy for OpenObject workflow.triggers model
+registering WorkflowWorkitem as an ActiveResource proxy for OpenObject workflow.workitem model
+
+
+Started GET "/accounts/0019000000CIIvRAAX" for 127.0.0.1 at 2012-05-12 15:51:05 +0530
+
+SyntaxError (/home/swapnil/Sites/salseforce/app/controllers/accounts_controller.rb:78: syntax error, unexpected keyword_end, expecting $end):
+  activesupport (3.2.3) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.3) lib/active_support/inflector/methods.rb:229:in `block in constantize'
+  activesupport (3.2.3) lib/active_support/inflector/methods.rb:228:in `each'
+  activesupport (3.2.3) lib/active_support/inflector/methods.rb:228:in `constantize'
+  activesupport (3.2.3) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__57055143__call__512126278__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/swapnil/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/swapnil/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/swapnil/.rvm/rubies/ruby-1.9.2-p318/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/swapnil/.rvm/gems/ruby-1.9.2-p318/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /home/swapnil/.rvm/gems/ruby-1.9.2-p318/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (30.0ms)
+  Rendered /home/swapnil/.rvm/gems/ruby-1.9.2-p318/gems/actionpack-3.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.7ms)
+
+
+Started GET "/accounts/0019000000CIIvRAAX" for 127.0.0.1 at 2012-05-12 15:51:18 +0530
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: search, *args: [[], 0, false, false, {}, false]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: ir.model, method: read, *args: [[50, 47, 46, 49, 44, 45, 48, 93, 94, 92, 51, 12, 14, 20, 15, 72, 13, 19, 21, 17, 16, 22, 39, 23, 11, 27, 28, 24, 3, 4, 2, 41, 42, 43, 85, 35, 6, 5, 18, 26, 7, 9, 8, 10, 25, 38, 90, 75, 40, 68, 66, 69, 67, 89, 91, 54, 76, 70, 71, 79, 80, 52, 53, 73, 74, 77, 55, 84, 59, 60, 63, 61, 62, 64, 57, 65, 58, 56, 81, 83, 82, 78, 86, 87, 88, 36, 37, 29, 30, 32, 31, 34, 33], ["model"]]
+Processing by AccountsController#show as HTML
+  Parameters: {"id"=>"0019000000CIIvRAAX"}
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: fields_get, *args: []
+17 fields loaded in model ResPartner
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: default_get, *args: [["comment", "ean13", "active", "supplier", "city", "employee", "ref", "email", "vat", "website", "lang", "phone", "date", "customer", "credit_limit", "name", "mobile", "user_id", "title", "company_id", "parent_id", "country", "bank_ids", "child_ids", "address", "events", "category_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.users, method: fields_get, *args: []
+13 fields loaded in model ResUsers
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.title, method: fields_get, *args: []
+3 fields loaded in model ResPartnerTitle
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.company, method: fields_get, *args: []
+9 fields loaded in model ResCompany
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country, method: fields_get, *args: []
+2 fields loaded in model ResCountry
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: create, *args: [{"active"=>1, "customer"=>"TRUE", "lang"=>"en_US", "name"=>"Dickenson plc", "supplier"=>"TRUE", "website"=>"dickenson-consulting.com", "company_id"=>1}, {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner, method: read, *args: [[162], [], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: fields_get, *args: []
+15 fields loaded in model ResPartnerAddress
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: default_get, *args: [["function", "city", "fax", "name", "zip", "mobile", "is_supplier_add", "street2", "is_customer_add", "birthdate", "phone", "street", "type", "active", "email", "country_id", "title", "company_id", "state_id", "partner_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country.state, method: fields_get, *args: []
+2 fields loaded in model ResCountryState
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country.state, method: default_get, *args: [["code", "name", "country_id"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.country, method: default_get, *args: [["code", "name"], {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: create, *args: [{"active"=>1, "street"=>"1301 Hoch Drive", "city"=>"Lawrence", "zip"=>"66045", "phone"=>"(785) 241-6200", "fax"=>"(785) 241-6201", "type"=>"invoice", "company_id"=>1, "partner_id"=>162, "country_id"=>false}, {}]
+OOOR RPC: rpc_method: 'execute', db: demoapp, uid: 1, pass: #, obj: res.partner.address, method: read, *args: [[122], [], {}]
+  Rendered accounts/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 8018ms (Views: 25.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-05-12 15:51:26 +0530
+Served asset /application.css - 304 Not Modified (60ms)
+
+
+Started GET "/assets/contacts.css?body=1" for 127.0.0.1 at 2012-05-12 15:51:26 +0530
+Served asset /contacts.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2012-05-12 15:51:26 +0530
+Served asset /accounts.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/leads.css?body=1" for 127.0.0.1 at 2012-05-12 15:51:26 +0530
+Served asset /leads.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-05-12 15:51:26 +0530
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-05-12 15:51:26 +0530
+Served asset /products.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2012-05-12 15:51:26 +0530
+Served asset /accounts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-05-12 15:51:26 +0530
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at 2012-05-12 15:51:26 +0530
+Served asset /contacts.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/leads.js?body=1" for 127.0.0.1 at 2012-05-12 15:51:26 +0530
+Served asset /leads.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-05-12 15:51:26 +0530
+Served asset /products.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-05-12 15:51:26 +0530
+Served asset /application.js - 304 Not Modified (9ms)

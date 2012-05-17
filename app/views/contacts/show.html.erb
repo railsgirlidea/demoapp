@@ -1,0 +1,7 @@
+<h1>Contact <%= @contact.Name %></h1>
+	 
+	<% @contact.attributes.each do |a| %>
+	    <%= a[0] %>: <%= a[1] %><br/>
+	<% end %>
+
+
